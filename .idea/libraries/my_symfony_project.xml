@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="my_symfony_project">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zadanie2/my_symfony_project.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
