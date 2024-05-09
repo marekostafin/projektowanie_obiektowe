@@ -1,5 +1,8 @@
 # Zadanie 6
 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=marekostafin_po-zadanie6&metric=bugs)](https://sonarcloud.io/summary/new_code?id=marekostafin_po-zadanie6)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=marekostafin_po-zadanie6&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=marekostafin_po-zadanie6)
+
 ### Na 3.0
 
 Pliki zadania 6 umieściłem w osobnym repozytorium, ponieważ w ten sposób łatwiej było mi skonfigurować hook'a.
@@ -35,3 +38,24 @@ if ! $PASS; then
 fi
 ```
 Nagranie ilustrujące jego działanie znajduje się w katalogu z niniejszym README.
+
+### Na 3.5
+
+![Sonar1.png](Sonar1.png)
+
+Po przeskanowaniu repozytorium za pomocą SonarCloud'a, okazało się, że aplikacja nie ma żadnych bugów. 
+Podpunkt na 3.5 jest więc spełniony - przechodzę dalej.
+
+### Na 4.0
+Na powyższym zrzucie ekranu widać, że w kodzie jest 9 zapaszków.
+Po poprawieniu ich, analiza wygląda następująco:
+
+![Sonar2.png](Sonar2.png)
+
+Czyli udało się zredukować zapaszki do zera.
+
+### Na 4.5
+Na powyższym zrzucie ekranu widać, że nie ma żadnych podatności ani błędów bezpieczeństwa.
+
+### Na 5.0
+Jak wyżej.
