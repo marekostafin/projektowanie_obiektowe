@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuń produkt</title>
+</head>
+<body>
+    <ul>
+        #for(product in products):
+            <div>
+                <p>Nazwa: #(product.name)</p>
+                <p>Opis: #(product.description)</p>
+                <p>Cena: #(product.price)</p>
+                <form action="/products/#(product.id)" method="post">
+                    <input type="hidden" name="_method" value="DELETE">
+                    <button type="submit">Usuń</button>
+                </form>
+            </div>
+        #endfor
+    </ul>
+</body>
+</html>
